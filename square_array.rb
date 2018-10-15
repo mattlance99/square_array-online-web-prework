@@ -3,7 +3,7 @@ def square_array(array)
   square_array = []
   square_num = 0 
   array.each do |num|
-    puts "test + num ** 2
+    puts "This checks {num ** 2} types of people."
     #square_num = num ** 2
     square_array.push(square_num)
   end
