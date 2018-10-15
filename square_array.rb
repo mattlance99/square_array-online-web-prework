@@ -3,8 +3,8 @@ def square_array(array)
   square_array = []
   square_num = 0 
   array.each do |num|
-    puts num
-    square_num = num ** 2
+    puts num ** 2
+    #square_num = num ** 2
     square_array.push(square_num)
   end
 end
