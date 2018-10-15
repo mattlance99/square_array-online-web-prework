@@ -3,7 +3,7 @@ def square_array(array)
   square_array = []
   square_num = 0 
   array.each do |num|
-    puts "This checks if  #{num ** 2} squared."
+    num ** 2
     #square_num = num ** 2
     square_array.push(square_num)
   end
